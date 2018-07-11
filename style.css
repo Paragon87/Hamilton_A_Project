@@ -1,0 +1,30 @@
+#header {
+    width: 100%;
+    padding: 0;
+    margin: 0;   
+}
+
+/*   TOP NAVBAR    */
+
+#navbar-top {
+    background-color: lightskyblue;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+#nav-container1 {
+    background-color: lightskyblue;
+    padding: 10px;
+}
+
+#nav-container1 .navbar-nav {
+    list-style: none;
+}
+
+#nav-container1 .navbar-nav .nav-item a {
+    color: grey;
+}
+
+/*    BOTTOM NAVBAR    */
+
