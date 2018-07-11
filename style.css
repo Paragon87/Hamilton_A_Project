@@ -28,3 +28,17 @@
 
 /*    BOTTOM NAVBAR    */
 
+#header-logo {
+    width: 100px;
+    height: 75px;
+}
+
+#nav-container2 .nav-link {
+    color: lightskyblue;
+}
+
+/*  Intro section  */
+
+#intro {
+    background-color: lightskyblue;
+}
