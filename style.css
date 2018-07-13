@@ -1,16 +1,20 @@
+.page-wrapper {
+}
+
 #header {
     width: 100%;
     padding: 0;
-    margin: 0;   
+    margin: 0;
 }
 
 /*   TOP NAVBAR    */
 
 #navbar-top {
+    max-width: 1000px;
     background-color: lightskyblue;
     height: 50px;
     padding: 0;
-    margin: 0;
+    margin: 0 auto 0 auto;
 }
 
 #nav-container1 {
@@ -28,6 +32,11 @@
 
 /*    BOTTOM NAVBAR    */
 
+#sub-nav {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 #header-logo {
     width: 100px;
     height: 75px;
@@ -40,5 +49,43 @@
 /*  Intro section  */
 
 #intro {
+    display: flex;
     background-color: lightskyblue;
+    height: 75vh;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.content-wrapper {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.form-box {
+    border: 4px inset red;
+    margin: 25px;
+    padding: 25px;
+    height: 200px;
+    max-width: 500px;
+}
+
+.form-box h1 {
+    font-size: 1.25em;
+    color: white;
+}
+
+.form-box h2 {
+    font-size: 1em;
+    color: white;
+}
+
+/*  Property List section  */
+
+#carousel-container {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
 }
