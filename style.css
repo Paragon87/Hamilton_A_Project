@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 #header {
     width: 100%;
     padding: 0;
@@ -7,7 +12,7 @@
 /*   TOP NAVBAR    */
 
 #navbar-top {
-    max-width: 1000px;
+    display: flex;
     background-color: lightskyblue;
     height: 50px;
     padding: 0;
@@ -16,14 +21,23 @@
 
 #nav-container1 {
     background-color: lightskyblue;
-    padding: 10px;
 }
 
 #nav-container1 .navbar-nav {
     list-style: none;
 }
 
+.nav-item {
+    height: 100%;
+    width: auto;
+}
+
 #nav-container1 .navbar-nav .nav-item a {
+    color: grey;
+    padding: 0 30px;
+}
+
+#bus-phone {
     color: grey;
 }
 
@@ -37,19 +51,23 @@
 #header-logo {
     width: 100px;
     height: 75px;
+    margin-left: 50px;
 }
 
 #nav-container2 .nav-link {
     color: lightskyblue;
+    padding: 30px;
 }
 
 /*  Intro section  */
 
 #intro {
     display: flex;
-    background-color: lightskyblue;
+    margin: 0;
+    background-size: cover;
+    background-image: url(http://www.blueinkhomes.com/wp-content/uploads/2014/01/nice-houses-interior.jpg);
+    background-position: center;
     height: 75vh;
-    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
@@ -63,6 +81,7 @@
 
 .form-box {
     border: 4px inset red;
+    background-color: lightskyblue;
     margin: 25px;
     padding: 25px;
     height: 200px;
