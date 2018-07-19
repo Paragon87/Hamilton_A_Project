@@ -82,6 +82,7 @@ body {
 .form-box {
     border: 4px inset red;
     background-color: lightskyblue;
+    box-shadow: 6px 6px 10px rgba(0,0,0,0.8);
     margin: 25px;
     padding: 25px;
     height: 200px;
