@@ -12,11 +12,10 @@ body {
 /*   TOP NAVBAR    */
 
 #navbar-top {
-    display: flex;
     background-color: lightskyblue;
-    height: 50px;
+    min-height: 100px;
     padding: 0;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
 }
 
 #nav-container1 {
@@ -37,8 +36,10 @@ body {
     padding: 0 30px;
 }
 
-#bus-phone {
-    color: grey;
+#header-logo {
+    width: 100px;
+    height: 75px;
+    margin-left: 50px;
 }
 
 /*    BOTTOM NAVBAR    */
@@ -46,12 +47,7 @@ body {
 #sub-nav {
     max-width: 1000px;
     margin: 0 auto;
-}
-
-#header-logo {
-    width: 100px;
-    height: 75px;
-    margin-left: 50px;
+    display: none;
 }
 
 #nav-container2 .nav-link {
@@ -59,6 +55,9 @@ body {
     padding: 30px;
 }
 
+#bus-phone {
+    color: grey;
+}
 /*  Intro section  */
 
 #intro {
