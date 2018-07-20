@@ -16,6 +16,7 @@ body {
     min-height: 100px;
     padding: 0;
     margin: 0 auto;
+    border: 1px outset lightskyblue;
 }
 
 #nav-container1 {
@@ -33,13 +34,17 @@ body {
 
 #nav-container1 .navbar-nav .nav-item a {
     color: grey;
-    padding: 0 30px;
+    padding: 15px 30px;
 }
 
 #header-logo {
     width: 100px;
     height: 75px;
     margin-left: 50px;
+}
+
+#collapse-btn {
+    margin-right: 25px;
 }
 
 /*    BOTTOM NAVBAR    */
@@ -62,7 +67,7 @@ body {
 
 #intro {
     display: flex;
-    margin: 0;
+    margin: 100px 0 0 0;
     background-size: cover;
     background-image: url(http://www.blueinkhomes.com/wp-content/uploads/2014/01/nice-houses-interior.jpg);
     background-position: center;
@@ -84,7 +89,7 @@ body {
     box-shadow: 6px 6px 10px rgba(0,0,0,0.8);
     margin: 25px;
     padding: 25px;
-    height: 200px;
+    min-height: 200px;
     max-width: 500px;
 }
 
@@ -100,8 +105,22 @@ body {
 
 /*  Property List section  */
 
+.jumbotron {
+    margin: 15%;
+    margin-top: 5%;
+    border: 2px solid gray;
+
+}
+
 #carousel-container {
     display: flex;
     justify-content: center;
-    padding: 25px;
+}
+
+/*  Footer Section  */
+
+#footer {
+    height: 150px;
+    width: 100%;
+    background-color: lightskyblue;
 }
