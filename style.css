@@ -9,6 +9,12 @@ body {
     margin: 0;
 }
 
+iframe {
+    border: none;
+    width: 100%;
+    height: auto; 
+}
+
 /*   TOP NAVBAR    */
 
 #navbar-top {
