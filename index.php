@@ -20,37 +20,6 @@
             <?php
                 include "nav.html"
             ?>
-
-            <!--Bottom nav--><!--CURRENTLY HIDDEN-->
-            <nav id="sub-nav" class="navbar navbar-expand-md navbar-light">
-                <!--Menu Collapse Button-->
-                <button id="collapse-btn-2" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-container2">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!--Collapsing Content-->
-                <div class="collapse navbar-collapse justify-content-center" id="nav-container2">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" target="_self">Education</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" class="nav-link" href="#" target="_self">FAQs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" target="_self">Contact Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" target="_self">Realtors</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" target="_self">Special Mentions</a>
-                        </li>
-                        <li class="nav-item">
-                            <p id="bus-phone">(555)555-5555</p>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
         
         </header>
 
