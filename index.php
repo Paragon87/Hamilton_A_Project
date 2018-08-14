@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -17,7 +17,9 @@
         <!--Header section-->
         <header id="header">
 
-            <iframe src="nav.html"></iframe>
+            <?php
+                echo "Hello";
+            ?>
 
             <!--Bottom nav--><!--CURRENTLY HIDDEN-->
             <nav id="sub-nav" class="navbar navbar-expand-md navbar-light">
