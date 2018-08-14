@@ -18,7 +18,7 @@
         <header id="header">
 
             <?php
-                echo "Hello";
+                include "nav.html"
             ?>
 
             <!--Bottom nav--><!--CURRENTLY HIDDEN-->
