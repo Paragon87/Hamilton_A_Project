@@ -22,5 +22,11 @@
             ?>
         
         </header>
+
+        <!--Main section-->
+        <section id="main">
+            <div class="content-wrapper">
+            </div>
+        </section>
     </div>
 </body>
