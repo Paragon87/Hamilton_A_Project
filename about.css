@@ -8,3 +8,9 @@
     margin-right: auto;
     justify-content: center;
 }
+
+.jumbotron {
+    display: flex;
+    height: 100%;
+    border: 20px solid blue;
+}
