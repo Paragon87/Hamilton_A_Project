@@ -26,7 +26,7 @@
         <!--Main section-->
         <section id="main">
             <div id="main-wrapper" class="content-wrapper">
-                <div class="jumbotron">
+                <div class="tron">
                     <img src="pictures/Hamilton_in_Suit.jpg" alt="Photo of Andrew Hamilton wearing a suit and laughing">
                 </div>
             </div>
