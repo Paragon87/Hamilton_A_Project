@@ -26,8 +26,12 @@
         <!--Main section-->
         <section id="main">
             <div class="jumbotron" id="about_Container">
-                <img src="pictures/Hamilton_in_Suit.jpg" alt="Photo of Andrew Hamilton wearing a suit and laughing">
-                <h1>Text</h1>
+                <img id="photo_main" src="pictures/Hamilton_in_Suit.jpg" alt="Photo of Andrew Hamilton wearing a suit and laughing">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Diam vel quam elementum pulvinar etiam. Tellus mauris a diam maecenas. Diam vulputate ut pharetra sit amet aliquam id diam. 
+                 Platea dictumst vestibulum rhoncus est. Vitae tempus quam pellentesque nec nam. Mauris ultrices eros in cursus turpis massa. 
+                 Integer quis auctor elit sed vulputate mi sit. Non quam lacus suspendisse faucibus interdum posuere. Aliquam ultrices sagittis orci a scelerisque purus.
+                </p>
             </div>
         </section>
     </div>
